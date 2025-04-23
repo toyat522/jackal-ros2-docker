@@ -1,3 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
-/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport.cmake
-/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanExport-noconfig.cmake

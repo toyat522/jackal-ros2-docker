@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/src/velodyne/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py

@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/build/velodyne_msgs/rosidl_generator_c/velodyne_msgs/msg/detail/velodyne_packet__type_support.h

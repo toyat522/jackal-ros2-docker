@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ntrip_client/launch/ntrip_client_launch.py

@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/src/velodyne/velodyne/launch/velodyne-all-nodes-VLS128-launch.py

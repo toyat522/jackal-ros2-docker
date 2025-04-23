@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/build/ublox_msgs/ament_cmake_environment_hooks/local_setup.zsh

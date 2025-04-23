@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/src/velodyne/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py

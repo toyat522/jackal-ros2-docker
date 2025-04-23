@@ -1,1 +1,0 @@
-/home/sparklab/sparklab/gnss-ros_ws/build/velodyne_msgs/rosidl_typesupport_fastrtps_c/velodyne_msgs/msg/detail/velodyne_packet__rosidl_typesupport_fastrtps_c.h
