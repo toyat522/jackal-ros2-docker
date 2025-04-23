@@ -6,4 +6,4 @@
 	url = https://github.com/IntelRealSense/realsense-ros
 [submodule "home/sparklab/gnss-ros_ws/src/velodyne"]
 	path = home/sparklab/gnss-ros_ws/src/velodyne
-	url = "https://github.com/ros-drivers/velodyne#"
+	url = https://github.com/ros-drivers/velodyne
