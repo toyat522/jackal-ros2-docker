@@ -1,0 +1,61 @@
+[0.032s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver -- -j4 -l4
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.107s] [  8%] [32mBuilding CXX object CMakeFiles/velodyne_input.dir/src/lib/input.cpp.o[0m
+[0.130s] [ 25%] Built target gtest
+[0.146s] [ 41%] Built target gtest_main
+[3.030s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[3.145s] [ 50%] Built target velodyne_input
+[3.164s] [ 66%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[3.164s] [ 66%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[6.765s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[6.973s] [ 75%] Built target time_test
+[13.543s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[14.095s] [ 83%] Built target velodyne_driver
+[14.113s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[17.545s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[17.772s] [100%] Built target velodyne_driver_node
+[17.781s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver -- -j4 -l4
+[17.783s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver
+[17.789s] -- Install configuration: ""
+[17.790s] -- Execute custom install script
+[17.790s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/lib/velodyne_driver/velodyne_driver_node
+[17.798s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/include/velodyne_driver/driver.hpp
+[17.805s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/include/velodyne_driver/input.hpp
+[17.812s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/include/velodyne_driver/time_conversion.hpp
+[17.820s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/config/VLP16-velodyne_driver_node-params.yaml
+[17.827s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/config/VLP32C-velodyne_driver_node-params.yaml
+[17.835s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/config/VLS128-velodyne_driver_node-params.yaml
+[17.842s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-composed-launch.py
+[17.850s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP16-launch.py
+[17.857s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-composed-launch.py
+[17.864s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLP32C-launch.py
+[17.872s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-composed-launch.py
+[17.879s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/launch/velodyne_driver_node-VLS128-launch.py
+[17.887s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/lib/velodyne_driver/vdump
+[17.894s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/ament_index/resource_index/package_run_dependencies/velodyne_driver
+[17.902s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/ament_index/resource_index/parent_prefix_path/velodyne_driver
+[17.909s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.sh
+[17.917s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/environment/ament_prefix_path.dsv
+[17.924s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/environment/path.sh
+[17.932s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/environment/path.dsv
+[17.939s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/local_setup.bash
+[17.946s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/local_setup.sh
+[17.954s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/local_setup.zsh
+[17.961s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/local_setup.dsv
+[17.969s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/package.dsv
+[17.976s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/ament_index/resource_index/packages/velodyne_driver
+[17.984s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/ament_index/resource_index/rclcpp_components/velodyne_driver
+[17.991s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.999s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_targets-extras.cmake
+[18.006s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.013s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig.cmake
+[18.021s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverConfig-version.cmake
+[18.028s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/package.xml
+[18.036s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/lib/libvelodyne_input.so
+[18.036s] -- Set runtime path of "/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/lib/libvelodyne_input.so" to ""
+[18.036s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/lib/libvelodyne_driver.so
+[18.044s] -- Set runtime path of "/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/lib/libvelodyne_driver.so" to ""
+[18.044s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport.cmake
+[18.044s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver/share/velodyne_driver/cmake/velodyne_driverExport-noconfig.cmake
+[18.046s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver' returned '0': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sparklab/sparklab/gnss-ros_ws/build/velodyne_driver

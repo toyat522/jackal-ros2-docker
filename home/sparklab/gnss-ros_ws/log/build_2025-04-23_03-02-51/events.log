@@ -1,0 +1,795 @@
+[0.000000] (-) TimerEvent: {}
+[0.000707] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000765] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs')])}
+[0.000816] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs')])}
+[0.000854] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.017725] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.018427] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[0.019264] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058278] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.067167] (realsense2_camera_msgs) StdoutLine: {'line': b'[  1%] Built target realsense2_camera_msgs__cpp\n'}
+[0.070626] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[0.072644] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_realsense2_camera_msgs\n'}
+[0.078650] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.083138] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.090105] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.090827] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.099774] (-) TimerEvent: {}
+[0.100581] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 30%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.100865] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[0.106963] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 46%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.107631] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 57%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.112745] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.114087] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.124088] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 68%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[0.126727] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[0.144922] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 79%] Built target realsense2_camera_msgs\n'}
+[0.164064] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[0.174086] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.190142] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 90%] Built target realsense2_camera_msgs__rosidl_generator_py\n'}
+[0.199895] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.200045] (-) TimerEvent: {}
+[0.201040] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.201508] (realsense2_camera_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.216092] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 93%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.216298] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[0.219040] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.300166] (-) TimerEvent: {}
+[0.340351] (realsense2_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.341024] (realsense2_camera_msgs) StdoutLine: {'line': b'writing realsense2_camera_msgs.egg-info/PKG-INFO\n'}
+[0.341228] (realsense2_camera_msgs) StdoutLine: {'line': b'writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt\n'}
+[0.341402] (realsense2_camera_msgs) StdoutLine: {'line': b'writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt\n'}
+[0.343566] (realsense2_camera_msgs) StdoutLine: {'line': b"reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.344195] (realsense2_camera_msgs) StdoutLine: {'line': b"writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[0.368046] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg\n'}
+[0.378067] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[0.378923] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'install'}
+[0.386755] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera_msgs'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera_msgs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.393355] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.393969] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.394177] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs\n'}
+[0.394911] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[0.395120] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[0.395254] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[0.395402] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h\n'}
+[0.395493] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h\n'}
+[0.395630] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h\n'}
+[0.395727] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h\n'}
+[0.395926] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h\n'}
+[0.396070] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[0.396205] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h\n'}
+[0.396415] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h\n'}
+[0.396606] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h\n'}
+[0.396738] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h\n'}
+[0.396840] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h\n'}
+[0.396934] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h\n'}
+[0.397043] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h\n'}
+[0.397183] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.397333] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h\n'}
+[0.397479] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h\n'}
+[0.397712] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h\n'}
+[0.397851] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h\n'}
+[0.398041] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh\n'}
+[0.398187] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv\n'}
+[0.398932] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[0.399081] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.399230] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[0.399389] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.399538] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.399657] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.400132] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[0.400202] (-) TimerEvent: {}
+[0.400305] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[0.400461] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[0.400594] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h\n'}
+[0.400705] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.400840] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[0.401528] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[0.401691] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[0.401862] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[0.402006] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp\n'}
+[0.402136] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp\n'}
+[0.402284] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp\n'}
+[0.402400] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp\n'}
+[0.402547] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.hpp\n'}
+[0.402694] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[0.402867] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[0.403008] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[0.403200] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.hpp\n'}
+[0.403328] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp\n'}
+[0.403477] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp\n'}
+[0.403621] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp\n'}
+[0.403771] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.hpp\n'}
+[0.403919] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp\n'}
+[0.404019] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp\n'}
+[0.404157] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp\n'}
+[0.404302] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp\n'}
+[0.404442] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.404666] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp\n'}
+[0.404787] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp\n'}
+[0.404964] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp\n'}
+[0.405110] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.hpp\n'}
+[0.405244] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp\n'}
+[0.406010] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.406153] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.406252] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.406403] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.406526] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.406758] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.407189] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.407343] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.407495] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.407659] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.407805] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.407969] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh\n'}
+[0.408124] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv\n'}
+[0.408471] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/PKG-INFO\n'}
+[0.408677] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/SOURCES.txt\n'}
+[0.408802] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/dependency_links.txt\n'}
+[0.408947] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/top_level.txt\n'}
+[0.409867] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py\n'}
+[0.410006] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.410133] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.410244] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.410382] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\n'}
+[0.410565] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py\n'}
+[0.410714] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py\n'}
+[0.410833] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c\n'}
+[0.410977] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py\n'}
+[0.411121] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c\n'}
+[0.411257] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py\n'}
+[0.411429] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c\n'}
+[0.411542] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py\n'}
+[0.411663] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd_s.c\n'}
+[0.411801] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.411972] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.412111] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.412223] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py\n'}
+[0.412390] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py\n'}
+[0.412513] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c\n'}
+[0.412807] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.413097] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.413439] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.413683] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl\n'}
+[0.413852] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl\n'}
+[0.414035] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl\n'}
+[0.414224] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl\n'}
+[0.414427] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl\n'}
+[0.414638] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg\n'}
+[0.414821] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg\n'}
+[0.415000] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg\n'}
+[0.415145] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg\n'}
+[0.415294] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv\n'}
+[0.415503] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg\n'}
+[0.415685] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg\n'}
+[0.415896] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs\n'}
+[0.416094] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs\n'}
+[0.416289] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh\n'}
+[0.416465] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[0.416658] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh\n'}
+[0.416808] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv\n'}
+[0.416984] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash\n'}
+[0.417127] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh\n'}
+[0.417327] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh\n'}
+[0.417494] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv\n'}
+[0.417662] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv\n'}
+[0.425176] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs\n'}
+[0.425349] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.425520] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.425725] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.425898] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.426054] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.426209] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.426365] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.426622] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake\n'}
+[0.426759] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake\n'}
+[0.426964] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml\n'}
+[0.427270] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so\n'}
+[0.427651] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.428033] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.428352] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so\n'}
+[0.428697] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.429075] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.429404] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[0.460910] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...\n"}
+[0.461066] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...\n"}
+[0.461141] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...\n"}
+[0.465202] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so\n'}
+[0.465480] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[0.465688] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.465859] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.465984] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.466083] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.466167] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.466247] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.466325] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.466437] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.466563] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.466655] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.466720] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.466787] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.466849] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.466912] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.466973] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.467034] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.468425] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[0.489910] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 0}
+[0.490612] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[0.493064] (realsense2_description) JobStarted: {'identifier': 'realsense2_description'}
+[0.497495] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[0.498371] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/sparklab/sparklab/gnss-ros_ws/src/realsense-ros/realsense2_camera', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera'), ('PYTHONPATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[0.500183] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'cmake'}
+[0.500237] (-) TimerEvent: {}
+[0.500761] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'build'}
+[0.500996] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_description', '--', '-j4', '-l4'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_description', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_description'), ('PYTHONPATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[0.510446] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[0.512789] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.535764] (realsense2_description) CommandEnded: {'returncode': 0}
+[0.536329] (realsense2_description) JobProgress: {'identifier': 'realsense2_description', 'progress': 'install'}
+[0.537042] (realsense2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_description'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_description', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_description'), ('PYTHONPATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[0.543650] (realsense2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.544134] (realsense2_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.544528] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/launch/launch_utils.py\n'}
+[0.544711] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/launch/view_model.launch.py\n'}
+[0.544982] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/d405.stl\n'}
+[0.545147] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl\n'}
+[0.545242] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae\n'}
+[0.545363] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/d455.stl\n'}
+[0.545496] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae\n'}
+[0.545634] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl\n'}
+[0.545757] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl\n'}
+[0.545941] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz\n'}
+[0.546432] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_d405.urdf.xacro\n'}
+[0.546644] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro\n'}
+[0.546835] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro\n'}
+[0.546952] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro\n'}
+[0.547084] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro\n'}
+[0.547174] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_d455.urdf.xacro\n'}
+[0.547249] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro\n'}
+[0.547385] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro\n'}
+[0.547510] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro\n'}
+[0.547641] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro\n'}
+[0.547775] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_d405_camera.urdf.xacro\n'}
+[0.547906] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro\n'}
+[0.548038] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro\n'}
+[0.548173] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro\n'}
+[0.548310] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro\n'}
+[0.548443] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_d455_camera.urdf.xacro\n'}
+[0.548575] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro\n'}
+[0.548708] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro\n'}
+[0.548936] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/ament_index/resource_index/package_run_dependencies/realsense2_description\n'}
+[0.549146] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/ament_index/resource_index/parent_prefix_path/realsense2_description\n'}
+[0.549409] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.sh\n'}
+[0.549631] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/environment/ament_prefix_path.dsv\n'}
+[0.549802] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/environment/path.sh\n'}
+[0.549966] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/environment/path.dsv\n'}
+[0.550125] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/local_setup.bash\n'}
+[0.550274] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/local_setup.sh\n'}
+[0.550494] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/local_setup.zsh\n'}
+[0.550668] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/local_setup.dsv\n'}
+[0.550816] (realsense2_description) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/package.dsv\n'}
+[0.558549] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/ament_index/resource_index/packages/realsense2_description\n'}
+[0.558741] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake\n'}
+[0.558865] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake\n'}
+[0.559039] (realsense2_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description/share/realsense2_description/package.xml\n'}
+[0.561023] (realsense2_description) CommandEnded: {'returncode': 0}
+[0.573131] (realsense2_description) JobEnded: {'identifier': 'realsense2_description', 'rc': 0}
+[0.600357] (-) TimerEvent: {}
+[0.635662] (realsense2_camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.643641] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.668726] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.671530] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.677974] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.688522] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700455] (-) TimerEvent: {}
+[0.702323] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.714956] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.772756] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.800564] (-) TimerEvent: {}
+[0.805169] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.806736] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900690] (-) TimerEvent: {}
+[0.924562] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.990200] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.000798] (-) TimerEvent: {}
+[1.009001] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.55.1 (/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[1.028800] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.046751] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.100906] (-) TimerEvent: {}
+[1.115231] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[1.148064] (realsense2_camera) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core \n'}
+[1.149330] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Humble\n'}
+[1.156668] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.160383] (realsense2_camera) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.166472] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[1.201021] (-) TimerEvent: {}
+[1.301272] (-) TimerEvent: {}
+[1.401523] (-) TimerEvent: {}
+[1.501801] (-) TimerEvent: {}
+[1.602078] (-) TimerEvent: {}
+[1.702326] (-) TimerEvent: {}
+[1.802602] (-) TimerEvent: {}
+[1.902866] (-) TimerEvent: {}
+[2.003110] (-) TimerEvent: {}
+[2.103383] (-) TimerEvent: {}
+[2.203659] (-) TimerEvent: {}
+[2.303906] (-) TimerEvent: {}
+[2.404165] (-) TimerEvent: {}
+[2.504428] (-) TimerEvent: {}
+[2.604673] (-) TimerEvent: {}
+[2.704938] (-) TimerEvent: {}
+[2.805209] (-) TimerEvent: {}
+[2.905459] (-) TimerEvent: {}
+[3.005718] (-) TimerEvent: {}
+[3.105990] (-) TimerEvent: {}
+[3.206236] (-) TimerEvent: {}
+[3.306448] (-) TimerEvent: {}
+[3.406713] (-) TimerEvent: {}
+[3.506962] (-) TimerEvent: {}
+[3.607219] (-) TimerEvent: {}
+[3.707496] (-) TimerEvent: {}
+[3.807746] (-) TimerEvent: {}
+[3.908002] (-) TimerEvent: {}
+[4.008462] (-) TimerEvent: {}
+[4.108926] (-) TimerEvent: {}
+[4.159165] (realsense2_camera) StdoutLine: {'line': b'-- rs_device_info:\n'}
+[4.159447] (realsense2_camera) StdoutLine: {'line': b'-- Device Name                   Serial Number       Firmware Version\n'}
+[4.159619] (realsense2_camera) StdoutLine: {'line': b'Intel RealSense D455          115422250396        5.16.0.1\n'}
+[4.159778] (realsense2_camera) StdoutLine: {'line': b'\n'}
+[4.159951] (realsense2_camera) StdoutLine: {'line': b'-- D455 device found\n'}
+[4.209033] (-) TimerEvent: {}
+[4.309287] (-) TimerEvent: {}
+[4.409544] (-) TimerEvent: {}
+[4.509790] (-) TimerEvent: {}
+[4.610041] (-) TimerEvent: {}
+[4.710302] (-) TimerEvent: {}
+[4.810541] (-) TimerEvent: {}
+[4.910788] (-) TimerEvent: {}
+[5.011051] (-) TimerEvent: {}
+[5.111302] (-) TimerEvent: {}
+[5.211554] (-) TimerEvent: {}
+[5.311802] (-) TimerEvent: {}
+[5.412052] (-) TimerEvent: {}
+[5.512303] (-) TimerEvent: {}
+[5.612551] (-) TimerEvent: {}
+[5.712802] (-) TimerEvent: {}
+[5.813054] (-) TimerEvent: {}
+[5.913303] (-) TimerEvent: {}
+[6.013553] (-) TimerEvent: {}
+[6.113803] (-) TimerEvent: {}
+[6.214052] (-) TimerEvent: {}
+[6.314302] (-) TimerEvent: {}
+[6.414537] (-) TimerEvent: {}
+[6.514779] (-) TimerEvent: {}
+[6.615031] (-) TimerEvent: {}
+[6.669762] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.704312] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[6.713004] (realsense2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera\n'}
+[6.715137] (-) TimerEvent: {}
+[6.721727] (realsense2_camera) CommandEnded: {'returncode': 0}
+[6.722238] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'build'}
+[6.723099] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera', '--', '-j4', '-l4'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera'), ('PYTHONPATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[6.770602] (realsense2_camera) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o\x1b[0m\n'}
+[6.770815] (realsense2_camera) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[6.770908] (realsense2_camera) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o\x1b[0m\n'}
+[6.772775] (realsense2_camera) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[6.815238] (-) TimerEvent: {}
+[6.915495] (-) TimerEvent: {}
+[7.015747] (-) TimerEvent: {}
+[7.116030] (-) TimerEvent: {}
+[7.216290] (-) TimerEvent: {}
+[7.316564] (-) TimerEvent: {}
+[7.416829] (-) TimerEvent: {}
+[7.479790] (realsense2_camera) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[7.516935] (-) TimerEvent: {}
+[7.521334] (realsense2_camera) StdoutLine: {'line': b'[ 22%] Built target gtest_main\n'}
+[7.529677] (realsense2_camera) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o\x1b[0m\n'}
+[7.617033] (-) TimerEvent: {}
+[7.717690] (-) TimerEvent: {}
+[7.818373] (-) TimerEvent: {}
+[7.919043] (-) TimerEvent: {}
+[8.019706] (-) TimerEvent: {}
+[8.120375] (-) TimerEvent: {}
+[8.221037] (-) TimerEvent: {}
+[8.321738] (-) TimerEvent: {}
+[8.422025] (-) TimerEvent: {}
+[8.522299] (-) TimerEvent: {}
+[8.622579] (-) TimerEvent: {}
+[8.722864] (-) TimerEvent: {}
+[8.823129] (-) TimerEvent: {}
+[8.923404] (-) TimerEvent: {}
+[9.023680] (-) TimerEvent: {}
+[9.123963] (-) TimerEvent: {}
+[9.224257] (-) TimerEvent: {}
+[9.324544] (-) TimerEvent: {}
+[9.424830] (-) TimerEvent: {}
+[9.525101] (-) TimerEvent: {}
+[9.625388] (-) TimerEvent: {}
+[9.725668] (-) TimerEvent: {}
+[9.825944] (-) TimerEvent: {}
+[9.926223] (-) TimerEvent: {}
+[10.026505] (-) TimerEvent: {}
+[10.126772] (-) TimerEvent: {}
+[10.227040] (-) TimerEvent: {}
+[10.327307] (-) TimerEvent: {}
+[10.427570] (-) TimerEvent: {}
+[10.527844] (-) TimerEvent: {}
+[10.628107] (-) TimerEvent: {}
+[10.728372] (-) TimerEvent: {}
+[10.728852] (realsense2_camera) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX executable realsense2_camera_node\x1b[0m\n'}
+[10.828532] (-) TimerEvent: {}
+[10.885169] (realsense2_camera) StdoutLine: {'line': b'[ 31%] Built target realsense2_camera_node\n'}
+[10.893455] (realsense2_camera) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o\x1b[0m\n'}
+[10.928622] (-) TimerEvent: {}
+[11.028885] (-) TimerEvent: {}
+[11.129168] (-) TimerEvent: {}
+[11.229432] (-) TimerEvent: {}
+[11.329697] (-) TimerEvent: {}
+[11.429972] (-) TimerEvent: {}
+[11.530244] (-) TimerEvent: {}
+[11.630510] (-) TimerEvent: {}
+[11.730768] (-) TimerEvent: {}
+[11.831031] (-) TimerEvent: {}
+[11.931296] (-) TimerEvent: {}
+[12.031581] (-) TimerEvent: {}
+[12.131867] (-) TimerEvent: {}
+[12.232145] (-) TimerEvent: {}
+[12.332414] (-) TimerEvent: {}
+[12.432688] (-) TimerEvent: {}
+[12.532954] (-) TimerEvent: {}
+[12.633230] (-) TimerEvent: {}
+[12.733502] (-) TimerEvent: {}
+[12.833768] (-) TimerEvent: {}
+[12.934035] (-) TimerEvent: {}
+[13.034304] (-) TimerEvent: {}
+[13.134588] (-) TimerEvent: {}
+[13.234849] (-) TimerEvent: {}
+[13.335112] (-) TimerEvent: {}
+[13.435385] (-) TimerEvent: {}
+[13.535653] (-) TimerEvent: {}
+[13.635929] (-) TimerEvent: {}
+[13.736200] (-) TimerEvent: {}
+[13.836482] (-) TimerEvent: {}
+[13.936767] (-) TimerEvent: {}
+[14.037054] (-) TimerEvent: {}
+[14.137329] (-) TimerEvent: {}
+[14.237605] (-) TimerEvent: {}
+[14.337877] (-) TimerEvent: {}
+[14.438148] (-) TimerEvent: {}
+[14.538418] (-) TimerEvent: {}
+[14.638688] (-) TimerEvent: {}
+[14.738957] (-) TimerEvent: {}
+[14.839236] (-) TimerEvent: {}
+[14.939511] (-) TimerEvent: {}
+[15.002741] (realsense2_camera) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[15.039619] (-) TimerEvent: {}
+[15.040358] (realsense2_camera) StdoutLine: {'line': b'[ 40%] Built target gtest\n'}
+[15.049238] (realsense2_camera) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o\x1b[0m\n'}
+[15.139720] (-) TimerEvent: {}
+[15.239999] (-) TimerEvent: {}
+[15.340277] (-) TimerEvent: {}
+[15.440557] (-) TimerEvent: {}
+[15.540818] (-) TimerEvent: {}
+[15.641070] (-) TimerEvent: {}
+[15.741320] (-) TimerEvent: {}
+[15.841583] (-) TimerEvent: {}
+[15.941843] (-) TimerEvent: {}
+[16.042128] (-) TimerEvent: {}
+[16.142416] (-) TimerEvent: {}
+[16.242686] (-) TimerEvent: {}
+[16.342961] (-) TimerEvent: {}
+[16.443233] (-) TimerEvent: {}
+[16.543505] (-) TimerEvent: {}
+[16.643788] (-) TimerEvent: {}
+[16.744079] (-) TimerEvent: {}
+[16.844369] (-) TimerEvent: {}
+[16.944674] (-) TimerEvent: {}
+[17.044966] (-) TimerEvent: {}
+[17.145264] (-) TimerEvent: {}
+[17.245562] (-) TimerEvent: {}
+[17.345864] (-) TimerEvent: {}
+[17.446150] (-) TimerEvent: {}
+[17.546424] (-) TimerEvent: {}
+[17.646716] (-) TimerEvent: {}
+[17.746996] (-) TimerEvent: {}
+[17.847273] (-) TimerEvent: {}
+[17.947552] (-) TimerEvent: {}
+[18.047833] (-) TimerEvent: {}
+[18.062612] (realsense2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o\x1b[0m\n'}
+[18.147937] (-) TimerEvent: {}
+[18.248215] (-) TimerEvent: {}
+[18.348485] (-) TimerEvent: {}
+[18.448754] (-) TimerEvent: {}
+[18.549019] (-) TimerEvent: {}
+[18.649299] (-) TimerEvent: {}
+[18.749595] (-) TimerEvent: {}
+[18.767197] (realsense2_camera) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o\x1b[0m\n'}
+[18.849696] (-) TimerEvent: {}
+[18.949955] (-) TimerEvent: {}
+[19.050216] (-) TimerEvent: {}
+[19.150550] (-) TimerEvent: {}
+[19.250794] (-) TimerEvent: {}
+[19.351047] (-) TimerEvent: {}
+[19.451319] (-) TimerEvent: {}
+[19.551589] (-) TimerEvent: {}
+[19.651867] (-) TimerEvent: {}
+[19.752144] (-) TimerEvent: {}
+[19.852427] (-) TimerEvent: {}
+[19.952706] (-) TimerEvent: {}
+[20.052987] (-) TimerEvent: {}
+[20.153261] (-) TimerEvent: {}
+[20.253537] (-) TimerEvent: {}
+[20.353812] (-) TimerEvent: {}
+[20.454077] (-) TimerEvent: {}
+[20.554361] (-) TimerEvent: {}
+[20.654646] (-) TimerEvent: {}
+[20.754929] (-) TimerEvent: {}
+[20.855192] (-) TimerEvent: {}
+[20.955462] (-) TimerEvent: {}
+[21.055735] (-) TimerEvent: {}
+[21.156009] (-) TimerEvent: {}
+[21.256271] (-) TimerEvent: {}
+[21.356533] (-) TimerEvent: {}
+[21.456795] (-) TimerEvent: {}
+[21.557061] (-) TimerEvent: {}
+[21.657332] (-) TimerEvent: {}
+[21.757611] (-) TimerEvent: {}
+[21.857887] (-) TimerEvent: {}
+[21.958158] (-) TimerEvent: {}
+[22.058410] (-) TimerEvent: {}
+[22.158671] (-) TimerEvent: {}
+[22.258945] (-) TimerEvent: {}
+[22.359221] (-) TimerEvent: {}
+[22.459492] (-) TimerEvent: {}
+[22.559770] (-) TimerEvent: {}
+[22.660771] (-) TimerEvent: {}
+[22.674431] (realsense2_camera) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[22.760883] (-) TimerEvent: {}
+[22.861186] (-) TimerEvent: {}
+[22.961448] (-) TimerEvent: {}
+[23.038765] (realsense2_camera) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o\x1b[0m\n'}
+[23.061548] (-) TimerEvent: {}
+[23.161799] (-) TimerEvent: {}
+[23.262051] (-) TimerEvent: {}
+[23.362318] (-) TimerEvent: {}
+[23.462589] (-) TimerEvent: {}
+[23.562854] (-) TimerEvent: {}
+[23.663143] (-) TimerEvent: {}
+[23.763407] (-) TimerEvent: {}
+[23.863672] (-) TimerEvent: {}
+[23.963949] (-) TimerEvent: {}
+[24.064235] (-) TimerEvent: {}
+[24.164505] (-) TimerEvent: {}
+[24.264765] (-) TimerEvent: {}
+[24.365031] (-) TimerEvent: {}
+[24.465303] (-) TimerEvent: {}
+[24.565575] (-) TimerEvent: {}
+[24.665855] (-) TimerEvent: {}
+[24.766123] (-) TimerEvent: {}
+[24.866396] (-) TimerEvent: {}
+[24.966662] (-) TimerEvent: {}
+[25.066923] (-) TimerEvent: {}
+[25.167190] (-) TimerEvent: {}
+[25.267464] (-) TimerEvent: {}
+[25.367735] (-) TimerEvent: {}
+[25.468026] (-) TimerEvent: {}
+[25.568297] (-) TimerEvent: {}
+[25.668573] (-) TimerEvent: {}
+[25.768853] (-) TimerEvent: {}
+[25.869125] (-) TimerEvent: {}
+[25.969394] (-) TimerEvent: {}
+[26.069664] (-) TimerEvent: {}
+[26.169938] (-) TimerEvent: {}
+[26.228123] (realsense2_camera) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o\x1b[0m\n'}
+[26.270042] (-) TimerEvent: {}
+[26.370306] (-) TimerEvent: {}
+[26.470583] (-) TimerEvent: {}
+[26.570846] (-) TimerEvent: {}
+[26.671116] (-) TimerEvent: {}
+[26.771398] (-) TimerEvent: {}
+[26.871684] (-) TimerEvent: {}
+[26.971966] (-) TimerEvent: {}
+[27.072231] (-) TimerEvent: {}
+[27.172521] (-) TimerEvent: {}
+[27.272826] (-) TimerEvent: {}
+[27.373108] (-) TimerEvent: {}
+[27.473380] (-) TimerEvent: {}
+[27.573654] (-) TimerEvent: {}
+[27.673930] (-) TimerEvent: {}
+[27.774210] (-) TimerEvent: {}
+[27.874486] (-) TimerEvent: {}
+[27.974785] (-) TimerEvent: {}
+[28.075067] (-) TimerEvent: {}
+[28.175345] (-) TimerEvent: {}
+[28.275621] (-) TimerEvent: {}
+[28.375905] (-) TimerEvent: {}
+[28.476184] (-) TimerEvent: {}
+[28.576463] (-) TimerEvent: {}
+[28.676749] (-) TimerEvent: {}
+[28.700371] (realsense2_camera) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o\x1b[0m\n'}
+[28.776852] (-) TimerEvent: {}
+[28.877202] (-) TimerEvent: {}
+[28.919190] (realsense2_camera) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[28.977302] (-) TimerEvent: {}
+[29.077563] (-) TimerEvent: {}
+[29.177820] (-) TimerEvent: {}
+[29.278074] (-) TimerEvent: {}
+[29.347675] (realsense2_camera) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o\x1b[0m\n'}
+[29.378172] (-) TimerEvent: {}
+[29.478415] (-) TimerEvent: {}
+[29.578669] (-) TimerEvent: {}
+[29.678930] (-) TimerEvent: {}
+[29.779185] (-) TimerEvent: {}
+[29.879446] (-) TimerEvent: {}
+[29.979723] (-) TimerEvent: {}
+[30.080004] (-) TimerEvent: {}
+[30.180279] (-) TimerEvent: {}
+[30.280547] (-) TimerEvent: {}
+[30.380842] (-) TimerEvent: {}
+[30.481132] (-) TimerEvent: {}
+[30.581404] (-) TimerEvent: {}
+[30.681673] (-) TimerEvent: {}
+[30.781941] (-) TimerEvent: {}
+[30.882222] (-) TimerEvent: {}
+[30.982492] (-) TimerEvent: {}
+[31.082751] (-) TimerEvent: {}
+[31.183018] (-) TimerEvent: {}
+[31.283279] (-) TimerEvent: {}
+[31.383549] (-) TimerEvent: {}
+[31.483841] (-) TimerEvent: {}
+[31.584132] (-) TimerEvent: {}
+[31.684406] (-) TimerEvent: {}
+[31.784691] (-) TimerEvent: {}
+[31.884981] (-) TimerEvent: {}
+[31.985256] (-) TimerEvent: {}
+[32.085540] (-) TimerEvent: {}
+[32.185819] (-) TimerEvent: {}
+[32.291203] (-) TimerEvent: {}
+[32.391466] (-) TimerEvent: {}
+[32.491741] (-) TimerEvent: {}
+[32.592011] (-) TimerEvent: {}
+[32.692278] (-) TimerEvent: {}
+[32.792547] (-) TimerEvent: {}
+[32.892829] (-) TimerEvent: {}
+[32.993108] (-) TimerEvent: {}
+[33.093382] (-) TimerEvent: {}
+[33.193658] (-) TimerEvent: {}
+[33.293936] (-) TimerEvent: {}
+[33.394221] (-) TimerEvent: {}
+[33.494506] (-) TimerEvent: {}
+[33.594808] (-) TimerEvent: {}
+[33.695080] (-) TimerEvent: {}
+[33.795358] (-) TimerEvent: {}
+[33.895630] (-) TimerEvent: {}
+[33.995909] (-) TimerEvent: {}
+[34.096199] (-) TimerEvent: {}
+[34.196497] (-) TimerEvent: {}
+[34.296791] (-) TimerEvent: {}
+[34.397073] (-) TimerEvent: {}
+[34.497358] (-) TimerEvent: {}
+[34.597660] (-) TimerEvent: {}
+[34.616376] (realsense2_camera) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o\x1b[0m\n'}
+[34.697760] (-) TimerEvent: {}
+[34.703215] (realsense2_camera) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o\x1b[0m\n'}
+[34.797860] (-) TimerEvent: {}
+[34.898578] (-) TimerEvent: {}
+[34.998840] (-) TimerEvent: {}
+[35.099097] (-) TimerEvent: {}
+[35.199363] (-) TimerEvent: {}
+[35.299638] (-) TimerEvent: {}
+[35.399906] (-) TimerEvent: {}
+[35.500203] (-) TimerEvent: {}
+[35.600490] (-) TimerEvent: {}
+[35.608172] (realsense2_camera) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable gtest_template\x1b[0m\n'}
+[35.700590] (-) TimerEvent: {}
+[35.725393] (realsense2_camera) StdoutLine: {'line': b'[ 95%] Built target gtest_template\n'}
+[35.800724] (-) TimerEvent: {}
+[35.901488] (-) TimerEvent: {}
+[36.002221] (-) TimerEvent: {}
+[36.102947] (-) TimerEvent: {}
+[36.203659] (-) TimerEvent: {}
+[36.304391] (-) TimerEvent: {}
+[36.405122] (-) TimerEvent: {}
+[36.505865] (-) TimerEvent: {}
+[36.606581] (-) TimerEvent: {}
+[36.707312] (-) TimerEvent: {}
+[36.808075] (-) TimerEvent: {}
+[36.908857] (-) TimerEvent: {}
+[37.009618] (-) TimerEvent: {}
+[37.110408] (-) TimerEvent: {}
+[37.211137] (-) TimerEvent: {}
+[37.311902] (-) TimerEvent: {}
+[37.412603] (-) TimerEvent: {}
+[37.513311] (-) TimerEvent: {}
+[37.614054] (-) TimerEvent: {}
+[37.714780] (-) TimerEvent: {}
+[37.815493] (-) TimerEvent: {}
+[37.916235] (-) TimerEvent: {}
+[38.016529] (-) TimerEvent: {}
+[38.116817] (-) TimerEvent: {}
+[38.217091] (-) TimerEvent: {}
+[38.317371] (-) TimerEvent: {}
+[38.417653] (-) TimerEvent: {}
+[38.517937] (-) TimerEvent: {}
+[38.618220] (-) TimerEvent: {}
+[38.718671] (-) TimerEvent: {}
+[38.818951] (-) TimerEvent: {}
+[38.919225] (-) TimerEvent: {}
+[39.019495] (-) TimerEvent: {}
+[39.119768] (-) TimerEvent: {}
+[39.220037] (-) TimerEvent: {}
+[39.320315] (-) TimerEvent: {}
+[39.386305] (realsense2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera.so\x1b[0m\n'}
+[39.420438] (-) TimerEvent: {}
+[39.520720] (-) TimerEvent: {}
+[39.621050] (-) TimerEvent: {}
+[39.721305] (-) TimerEvent: {}
+[39.819923] (realsense2_camera) StdoutLine: {'line': b'[100%] Built target realsense2_camera\n'}
+[39.821406] (-) TimerEvent: {}
+[39.829680] (realsense2_camera) CommandEnded: {'returncode': 0}
+[39.830282] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'install'}
+[39.831157] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera'], 'cwd': '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', '6764024e662c'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sparklab'), ('OLDPWD', '/home/sparklab/sparklab'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('AMENT_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble'), ('PWD', '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera'), ('PYTHONPATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[39.837532] (realsense2_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[39.838052] (realsense2_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[39.838318] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node\n'}
+[39.846074] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/lib/librealsense2_camera.so\n'}
+[39.853849] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/base_realsense_node.h\n'}
+[39.861230] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/constants.h\n'}
+[39.868544] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/dynamic_params.h\n'}
+[39.875910] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/gl_window.h\n'}
+[39.883281] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/image_publisher.h\n'}
+[39.890629] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/named_filter.h\n'}
+[39.897934] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/profile_manager.h\n'}
+[39.905326] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/realsense_node_factory.h\n'}
+[39.912777] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/ros_param_backend.h\n'}
+[39.920088] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/ros_sensor.h\n'}
+[39.921509] (-) TimerEvent: {}
+[39.927483] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/ros_utils.h\n'}
+[39.934815] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/include/sensor_params.h\n'}
+[39.942412] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz\n'}
+[39.949732] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py\n'}
+[39.957025] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py\n'}
+[39.964417] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py\n'}
+[39.972413] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md\n'}
+[39.979749] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py\n'}
+[39.987113] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md\n'}
+[39.994496] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py\n'}
+[40.001875] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz\n'}
+[40.009232] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md\n'}
+[40.016589] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py\n'}
+[40.021625] (-) TimerEvent: {}
+[40.024004] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md\n'}
+[40.031469] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml\n'}
+[40.038776] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py\n'}
+[40.046163] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md\n'}
+[40.053498] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py\n'}
+[40.060934] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py\n'}
+[40.068268] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py\n'}
+[40.075632] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz\n'}
+[40.082969] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz\n'}
+[40.090483] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh\n'}
+[40.097878] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv\n'}
+[40.105380] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera\n'}
+[40.112850] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera\n'}
+[40.120320] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh\n'}
+[40.121722] (-) TimerEvent: {}
+[40.127791] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv\n'}
+[40.135251] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh\n'}
+[40.142663] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv\n'}
+[40.150033] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash\n'}
+[40.157533] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh\n'}
+[40.164927] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh\n'}
+[40.172322] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv\n'}
+[40.179763] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/package.dsv\n'}
+[40.187352] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera\n'}
+[40.194891] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera\n'}
+[40.202377] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.209872] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.217320] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.221837] (-) TimerEvent: {}
+[40.224744] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake\n'}
+[40.232115] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake\n'}
+[40.239472] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera/share/realsense2_camera/package.xml\n'}
+[40.248771] (realsense2_camera) CommandEnded: {'returncode': 0}
+[40.263847] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 0}
+[40.264472] (-) EventReactorShutdown: {}

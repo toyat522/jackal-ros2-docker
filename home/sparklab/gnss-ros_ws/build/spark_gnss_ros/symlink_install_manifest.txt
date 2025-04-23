@@ -1,0 +1,17 @@
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/launch/ublox_gps_ntrips.launch.py
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/config/zed_f9p.yaml
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/ament_index/resource_index/package_run_dependencies/spark_gnss_ros
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/ament_index/resource_index/parent_prefix_path/spark_gnss_ros
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/ament_prefix_path.sh
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/ament_prefix_path.dsv
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/path.sh
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/path.dsv
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.bash
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.sh
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.zsh
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.dsv
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/package.dsv
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/ament_index/resource_index/packages/spark_gnss_ros
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/cmake/spark_gnss_rosConfig.cmake
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/cmake/spark_gnss_rosConfig-version.cmake
+/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/package.xml

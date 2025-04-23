@@ -1,0 +1,146 @@
+[0.011s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_pointcloud:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.304s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.539s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.588s] -- Found asio: /usr/include  
+[0.591s] -- Found diagnostic_msgs: 4.8.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.645s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.653s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.666s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.755s] -- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.816s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.821s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.953s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.019s] -- Looking for pthread.h
+[1.094s] -- Looking for pthread.h - found
+[1.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.171s] -- Found Threads: TRUE  
+[1.226s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.244s] -- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+[1.264s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.303s] -- Found rtcm_msgs: 1.1.6 (/opt/ros/humble/share/rtcm_msgs/cmake)
+[1.330s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.352s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.356s] -- Found ublox_msgs: 2.3.0 (/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+[1.452s] -- Configuring done
+[1.546s] -- Generating done
+[1.558s] -- Build files have been written to: /home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps
+[1.567s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_pointcloud:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps
+[1.568s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_pointcloud:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps -- -j4 -l4
+[1.623s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[1.623s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[1.623s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[1.623s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[1.980s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[6.380s] In file included from [01m[K/home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps/src/adr_udr_product.cpp:20[m[K:
+[6.380s] [01m[K/home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps/include/ublox_gps/adr_udr_product.hpp:[m[K In constructor ‘[01m[Kublox_node::AdrUdrProduct::AdrUdrProduct(float, uint16_t, uint16_t, const string&, std::shared_ptr<diagnostic_updater::Updater>, rclcpp::Node*)[m[K’:
+[6.380s] [01m[K/home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps/include/ublox_gps/adr_udr_product.hpp:67:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kublox_node::AdrUdrProduct::protocol_version_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[6.380s]    67 |   float [01;35m[Kprotocol_version_[m[K;
+[6.381s]       |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[6.381s] [01m[K/home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps/include/ublox_gps/adr_udr_product.hpp:66:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool ublox_node::AdrUdrProduct::use_adr_[m[K’ [[01;35m[K-Wreorder[m[K]
+[6.381s]    66 |   bool [01;35m[Kuse_adr_[m[K;
+[6.381s]       |        [01;35m[K^~~~~~~~[m[K
+[6.381s] [01m[K/home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/ublox/ublox_gps/src/adr_udr_product.cpp:28:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[6.381s]    28 | [01;35m[KAdrUdrProduct[m[K::AdrUdrProduct(float protocol_version, uint16_t nav_rate, uint16_t meas_rate, const std::string & frame_id, std::shared_ptr<diagnostic_updater::Updater> updater, rclcpp::Node* node)
+[6.381s]       | [01;35m[K^~~~~~~~~~~~~[m[K
+[10.165s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[10.201s] [ 31%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[10.247s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[10.512s] [ 40%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[12.698s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[18.634s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[19.942s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[22.347s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[26.733s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[28.057s] [ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[33.088s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[41.292s] [ 77%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[45.642s] [ 77%] Built target ublox_gps
+[45.665s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[45.665s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/raw_data_pa.cpp.o[0m
+[45.665s] [ 90%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o[0m
+[51.948s] [ 95%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[53.809s] [ 95%] Built target ublox_gps_node
+[54.911s] [100%] [32m[1mLinking CXX executable ublox_logger[0m
+[55.455s] [100%] Built target ublox_logger
+[55.466s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_pointcloud:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps -- -j4 -l4
+[55.468s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_pointcloud:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps
+[55.475s] -- Install configuration: ""
+[55.475s] -- Execute custom install script
+[55.476s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[55.484s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[55.493s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/adr_udr_product.hpp
+[55.502s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/async_worker.hpp
+[55.510s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/callback.hpp
+[55.518s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/component_interface.hpp
+[55.526s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fix_diagnostic.hpp
+[55.535s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/fts_product.hpp
+[55.543s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gnss.hpp
+[55.552s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/gps.hpp
+[55.560s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hp_pos_rec_product.hpp
+[55.568s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_ref_product.hpp
+[55.577s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/hpg_rov_product.hpp
+[55.585s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/mkgmtime.h
+[55.593s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/node.hpp
+[55.602s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_pa.hpp
+[55.610s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/raw_data_product.hpp
+[55.618s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/rtcm.hpp
+[55.627s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/tim_product.hpp
+[55.635s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware.hpp
+[55.643s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware6.hpp
+[55.652s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7.hpp
+[55.660s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware7plus.hpp
+[55.668s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware8.hpp
+[55.677s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_firmware9.hpp
+[55.685s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/ublox_topic_diagnostic.hpp
+[55.693s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/utils.hpp
+[55.702s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/include/ublox_gps/ublox_gps/worker.hpp
+[55.710s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[55.719s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py
+[55.727s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_base.yaml
+[55.736s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_rover.yaml
+[55.744s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_base.yaml
+[55.752s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_rover.yaml
+[55.760s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/neo_m8u_rover.yaml
+[55.769s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/nmea.yaml
+[55.777s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[55.786s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[55.794s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[55.803s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[55.811s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[55.820s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[55.828s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[55.836s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[55.845s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[55.853s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[55.862s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[55.870s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[55.878s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[55.887s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[55.895s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.904s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/cmake/ament_cmake_export_targets-extras.cmake
+[55.912s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[55.920s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[55.929s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/package.xml
+[55.937s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/lib/libublox_gps.so
+[55.967s] -- Set runtime path of "/home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/lib/libublox_gps.so" to ""
+[55.968s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport.cmake
+[55.968s] -- Installing: /home/sparklab/sparklab/gnss-ros_ws/install/ublox_gps/share/ublox_gps/cmake/export_ublox_gpsExport-noconfig.cmake
+[55.970s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/ublox_serialization:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_pointcloud:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_driver:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_msgs:/home/sparklab/sparklab/gnss-ros_ws/install/velodyne_laserscan:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_description:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera:/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sparklab/sparklab/gnss-ros_ws/build/ublox_gps

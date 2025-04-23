@@ -1,0 +1,43 @@
+[0.037s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/spark_gnss_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.383s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.393s] -- Detecting CXX compile features
+[0.394s] -- Detecting CXX compile features - done
+[0.398s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.569s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.636s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.754s] -- Configuring done
+[0.757s] -- Generating done
+[0.758s] -- Build files have been written to: /home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros
+[0.762s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sparklab/sparklab/gnss-ros_ws/src/GNSS-ROS/spark_gnss_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros
+[0.763s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros -- -j4 -l4
+[0.801s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros -- -j4 -l4
+[0.803s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros
+[0.810s] -- Install configuration: ""
+[0.810s] -- Execute custom install script
+[0.811s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/launch/ublox_gps_ntrips.launch.py
+[0.820s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/config/zed_f9p.yaml
+[0.828s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/ament_index/resource_index/package_run_dependencies/spark_gnss_ros
+[0.837s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/ament_index/resource_index/parent_prefix_path/spark_gnss_ros
+[0.845s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/ament_prefix_path.sh
+[0.853s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/ament_prefix_path.dsv
+[0.862s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/path.sh
+[0.870s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/environment/path.dsv
+[0.879s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.bash
+[0.887s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.sh
+[0.895s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.zsh
+[0.904s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/local_setup.dsv
+[0.912s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/package.dsv
+[0.921s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/ament_index/resource_index/packages/spark_gnss_ros
+[0.929s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/cmake/spark_gnss_rosConfig.cmake
+[0.938s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/cmake/spark_gnss_rosConfig-version.cmake
+[0.946s] -- Symlinking: /home/sparklab/sparklab/gnss-ros_ws/install/spark_gnss_ros/share/spark_gnss_ros/package.xml
+[0.956s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros

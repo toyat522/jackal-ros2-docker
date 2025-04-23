@@ -1,0 +1,94 @@
+1745378869.2656357 [INFO] [launch]: All log files can be found below /home/sparklab/.ros/log/2025-04-23-03-27-49-264848-6764024e662c-12713
+1745378869.2657545 [INFO] [launch]: Default logging verbosity is set to INFO
+1745378869.3945618 [INFO] [microstrain_inertial_driver_node-1]: process started with pid [12714]
+1745378869.4199836 [microstrain_inertial_driver_node-1] [INFO] [1745378869.419699696] [microstrain_inertial_driver]: Running microstrain_inertial_driver version: unknown
+1745378869.4201176 [microstrain_inertial_driver_node-1] [INFO] [1745378869.419788439] [microstrain_inertial_driver]: Using MIP SDK version: v0.0.0
+1745378869.4201884 [microstrain_inertial_driver_node-1] [WARN] [1745378869.419800531] [microstrain_inertial_driver]: No relative position configured. We will not publish relative odometry or transforms.
+1745378869.4202471 [microstrain_inertial_driver_node-1] [WARN] [1745378869.419807478] [microstrain_inertial_driver]:   Please configure relative position to publish relative position data
+1745378869.4204798 [microstrain_inertial_driver_node-1] [INFO] [1745378869.419916557] [microstrain_inertial_driver]: Attempting to open serial port </dev/ttyACM0> at <115200>
+1745378869.4205484 [microstrain_inertial_driver_node-1] [INFO] [1745378869.420203989] [microstrain_inertial_driver]: Setting device to idle in order to configure
+1745378869.4391878 [microstrain_inertial_driver_node-1] [INFO] [1745378869.438951262] [microstrain_inertial_driver]: Main Connection Info:
+1745378869.4393315 [microstrain_inertial_driver_node-1]     #######################
+1745378869.4394240 [microstrain_inertial_driver_node-1]     Model Name:       3DMGX5-AHRS
+1745378869.4395170 [microstrain_inertial_driver_node-1]     Serial Number:    6253.132644
+1745378869.4396150 [microstrain_inertial_driver_node-1]     Firmware Version: 1.1.76
+1745378869.4397027 [microstrain_inertial_driver_node-1]     #######################
+1745378869.4644740 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464265867] [microstrain_inertial_driver]: Note: The device does not support publishing the topic ekf/dual_antenna_heading
+1745378869.4645939 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464302772] [microstrain_inertial_driver]: Note: The device does not support publishing the topic ekf/llh_position
+1745378869.4646740 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464320880] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_1/llh_position
+1745378869.4647431 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464329329] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_1/odometry_earth
+1745378869.4649858 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464336405] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_1/time
+1745378869.4650688 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464343536] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_1/velocity
+1745378869.4651392 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464354804] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_1/velocity_ecef
+1745378869.4652023 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464362343] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_2/llh_position
+1745378869.4652650 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464369369] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_2/odometry_earth
+1745378869.4653533 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464376071] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_2/time
+1745378869.4654274 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464382694] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_2/velocity
+1745378869.4654922 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464389420] [microstrain_inertial_driver]: Note: The device does not support publishing the topic gnss_2/velocity_ecef
+1745378869.4656968 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464400201] [microstrain_inertial_driver]: Note: The device does not support publishing the topic imu/wheel_speed
+1745378869.4657831 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464407785] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/ekf/aiding_measurement_summary
+1745378869.4658570 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464414711] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/ekf/gnss_dual_antenna_status
+1745378869.4659193 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464421571] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/ekf/gnss_position_aiding_status
+1745378869.4659810 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464428837] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/ekf/multi_antenna_offset_correction
+1745378869.4660401 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464436356] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/gnss_1/fix_info
+1745378869.4661093 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464445718] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/gnss_1/rf_error_detection
+1745378869.4661734 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464452597] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/gnss_1/sbas_info
+1745378869.4662325 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464459442] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/gnss_2/fix_info
+1745378869.4663017 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464466012] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/gnss_2/rf_error_detection
+1745378869.4663601 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464472680] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/gnss_2/sbas_info
+1745378869.4664192 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464500131] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/sensor/overrange_status
+1745378869.4664783 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464509473] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/sensor/temperature_statistics
+1745378869.4665449 [microstrain_inertial_driver_node-1] [INFO] [1745378869.464516443] [microstrain_inertial_driver]: Note: The device does not support publishing the topic mip/system/built_in_test
+1745378869.5125854 [microstrain_inertial_driver_node-1] [INFO] [1745378869.512143545] [microstrain_inertial_driver]: Device does not support comm speed command
+1745378869.5140002 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513506404] [microstrain_inertial_driver]: Note: The device does not support the GPIO config command
+1745378869.5142949 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513559492] [microstrain_inertial_driver]: Note: The device does not support the PPS source command
+1745378869.5145144 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513583415] [microstrain_inertial_driver]: Note: The device does not support the odometer settings command
+1745378869.5147088 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513604529] [microstrain_inertial_driver]: Note: The device does not support the SBAS settings command
+1745378869.5148923 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513623840] [microstrain_inertial_driver]: Note: The device does not support the nmea message format command
+1745378869.5155337 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513645226] [microstrain_inertial_driver]: Configuring low pass filter with:
+1745378869.5158451 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513665217] [microstrain_inertial_driver]:   field_descriptor = 0x04
+1745378869.5160873 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513687696] [microstrain_inertial_driver]:   enable = 0
+1745378869.5163369 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513708748] [microstrain_inertial_driver]:   manual = 1
+1745378869.5165224 [microstrain_inertial_driver_node-1] [INFO] [1745378869.513728462] [microstrain_inertial_driver]:   frequency = 1
+1745378869.5182514 [microstrain_inertial_driver_node-1] [INFO] [1745378869.517809013] [microstrain_inertial_driver]: Configuring low pass filter with:
+1745378869.5185530 [microstrain_inertial_driver_node-1] [INFO] [1745378869.517897470] [microstrain_inertial_driver]:   field_descriptor = 0x05
+1745378869.5192201 [microstrain_inertial_driver_node-1] [INFO] [1745378869.517926039] [microstrain_inertial_driver]:   enable = 0
+1745378869.5194709 [microstrain_inertial_driver_node-1] [INFO] [1745378869.517948701] [microstrain_inertial_driver]:   manual = 1
+1745378869.5196764 [microstrain_inertial_driver_node-1] [INFO] [1745378869.517981296] [microstrain_inertial_driver]:   frequency = 1
+1745378869.5242372 [microstrain_inertial_driver_node-1] [INFO] [1745378869.523948577] [microstrain_inertial_driver]: Configuring low pass filter with:
+1745378869.5247662 [microstrain_inertial_driver_node-1] [INFO] [1745378869.524013913] [microstrain_inertial_driver]:   field_descriptor = 0x06
+1745378869.5249979 [microstrain_inertial_driver_node-1] [INFO] [1745378869.524037213] [microstrain_inertial_driver]:   enable = 0
+1745378869.5251801 [microstrain_inertial_driver_node-1] [INFO] [1745378869.524055279] [microstrain_inertial_driver]:   manual = 1
+1745378869.5254054 [microstrain_inertial_driver_node-1] [INFO] [1745378869.524071285] [microstrain_inertial_driver]:   frequency = 1
+1745378869.5303805 [microstrain_inertial_driver_node-1] [INFO] [1745378869.529963160] [microstrain_inertial_driver]: Configuring low pass filter with:
+1745378869.5306532 [microstrain_inertial_driver_node-1] [INFO] [1745378869.530034622] [microstrain_inertial_driver]:   field_descriptor = 0x17
+1745378869.5308840 [microstrain_inertial_driver_node-1] [INFO] [1745378869.530059309] [microstrain_inertial_driver]:   enable = 0
+1745378869.5310879 [microstrain_inertial_driver_node-1] [INFO] [1745378869.530078487] [microstrain_inertial_driver]:   manual = 1
+1745378869.5317140 [microstrain_inertial_driver_node-1] [INFO] [1745378869.530095564] [microstrain_inertial_driver]:   frequency = 1
+1745378869.5366404 [microstrain_inertial_driver_node-1] [INFO] [1745378869.536214250] [microstrain_inertial_driver]: Note: Device does not support the RTK dongle config command
+1745378869.5369394 [microstrain_inertial_driver_node-1] [INFO] [1745378869.536280896] [microstrain_inertial_driver]: Note: Device does not support Siangle Config command
+1745378869.5380428 [microstrain_inertial_driver_node-1] [INFO] [1745378869.537580748] [microstrain_inertial_driver]: Setting Declination Source to 2 0.230000
+1745378869.5425019 [microstrain_inertial_driver_node-1] [INFO] [1745378869.542045368] [microstrain_inertial_driver]: Note: Device does not support GNSS antenna offsets
+1745378869.5428038 [microstrain_inertial_driver_node-1] [INFO] [1745378869.542121596] [microstrain_inertial_driver]: Note: The device does not support the vehicle dynamics mode command.
+1745378869.5430295 [microstrain_inertial_driver_node-1] [INFO] [1745378869.542148597] [microstrain_inertial_driver]: Setting heading source to 1
+1745378869.5483308 [microstrain_inertial_driver_node-1] [INFO] [1745378869.547870976] [microstrain_inertial_driver]: Note: Not setting initial heading because heading source is not 0
+1745378869.5486319 [microstrain_inertial_driver_node-1] [INFO] [1745378869.547947589] [microstrain_inertial_driver]: Setting autoinitialization to 1
+1745378869.5545015 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554024105] [microstrain_inertial_driver]: Note: The device does not support the filter adaptive settings command.
+1745378869.5547938 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554094855] [microstrain_inertial_driver]: Note: The device does not support the filter aiding command.
+1745378869.5550449 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554118750] [microstrain_inertial_driver]: Note: The device does not support the filter speed lever arm command.
+1745378869.5552442 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554138064] [microstrain_inertial_driver]: Note: The device does not support the wheeled vehicle constraint command.
+1745378869.5558748 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554190222] [microstrain_inertial_driver]: Note: The device does not support the vertical gyro constraint command.
+1745378869.5561171 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554223294] [microstrain_inertial_driver]: Note: The device does not support the GNSS antenna calibration command.
+1745378869.5563157 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554242310] [microstrain_inertial_driver]: Note: The device does not support the next-gen filter initialization command.
+1745378869.5564983 [microstrain_inertial_driver_node-1] [INFO] [1745378869.554260649] [microstrain_inertial_driver]: Setting sensor to vehicle rotation euler to [-0.000000, -0.000000, -0.000000]
+1745378869.5604382 [microstrain_inertial_driver_node-1] [INFO] [1745378869.560006255] [microstrain_inertial_driver]: Note: The device does not support the reference point lever arm command
+1745378869.5607138 [microstrain_inertial_driver_node-1] [INFO] [1745378869.560080848] [microstrain_inertial_driver]: Note: The settings were not saved as startup settings. Power cycling will remove changes from device
+1745378869.5609512 [microstrain_inertial_driver_node-1] [INFO] [1745378869.560107100] [microstrain_inertial_driver]: Resetting the filter after the configuration is complete.
+1745378869.5832815 [microstrain_inertial_driver_node-1] [INFO] [1745378869.582777944] [microstrain_inertial_driver]: Setting spin rate to <200.000000> hz
+1745378869.5841296 [microstrain_inertial_driver_node-1] [INFO] [1745378869.583007042] [microstrain_inertial_driver]: Resuming the device data streams
+1745378869.5848844 [microstrain_inertial_driver_node-1] [INFO] [1745378869.584023473] [microstrain_inertial_driver]: Node activated
+1745378919.0783281 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1745378919.0813382 [microstrain_inertial_driver_node-1] [INFO] [1745378919.077661776] [rclcpp]: signal_handler(signum=2)
+1745378919.0816727 [microstrain_inertial_driver_node-1] [INFO] [1745378919.078415967] [microstrain_inertial_driver]: Forcing the device to idle
+1745378919.1201010 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1745378919.1222100 [ERROR] [microstrain_inertial_driver_node-1]: process has died [pid 12714, exit code -2, cmd '/opt/ros/humble/lib/microstrain_inertial_driver/microstrain_inertial_driver_node --ros-args -r __node:=microstrain_inertial_driver -r __ns:=/ --params-file /tmp/launch_params_yauxjlp4 --params-file /opt/ros/humble/share/microstrain_inertial_driver/config/empty.yml --params-file /tmp/launch_params_8kkoiv16'].

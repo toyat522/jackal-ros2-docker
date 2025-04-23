@@ -1,0 +1,1 @@
+/home/sparklab/sparklab/gnss-ros_ws/build/spark_gnss_ros/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    gnss-ros:
+        privileged: true
+        build: .
+        image: toyat522/gnss-ros
+        command: tail -f
+        volumes:
+            - ./home:/home/sparklab
+        devices:
+            - /dev:/dev

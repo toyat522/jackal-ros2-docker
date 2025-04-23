@@ -1,0 +1,9 @@
+[submodule "home/sparklab/gnss-ros_ws/src/GNSS-ROS"]
+	path = home/sparklab/gnss-ros_ws/src/GNSS-ROS
+	url = https://github.com/MIT-SPARK/GNSS-ROS
+[submodule "home/sparklab/gnss-ros_ws/src/realsense-ros"]
+	path = home/sparklab/gnss-ros_ws/src/realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros
+[submodule "home/sparklab/gnss-ros_ws/src/velodyne"]
+	path = home/sparklab/gnss-ros_ws/src/velodyne
+	url = "https://github.com/ros-drivers/velodyne#"

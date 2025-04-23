@@ -1,0 +1,31 @@
+[INFO] [1745379261.077650090] [camera.camera]: RealSense ROS v4.55.1
+[INFO] [1745379261.077739486] [camera.camera]: Built with LibRealSense v2.55.1
+[INFO] [1745379261.077755098] [camera.camera]: Running with LibRealSense v2.55.1
+[INFO] [1745379261.101971511] [camera.camera]: Device with serial number 115422250396 was found.
+
+[INFO] [1745379261.102039078] [camera.camera]: Device with physical ID /sys/devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.0/video4linux/video0 was found.
+[INFO] [1745379261.102058402] [camera.camera]: Device with name Intel RealSense D455 was found.
+[INFO] [1745379261.102309226] [camera.camera]: Device with port number 2-4 was found.
+[INFO] [1745379261.102334115] [camera.camera]: Device USB type: 3.2
+[INFO] [1745379261.102405293] [camera.camera]: getParameters...
+[INFO] [1745379261.102836790] [camera.camera]: JSON file is not provided
+[INFO] [1745379261.102863859] [camera.camera]: Device Name: Intel RealSense D455
+[INFO] [1745379261.102879159] [camera.camera]: Device Serial No: 115422250396
+[INFO] [1745379261.102896192] [camera.camera]: Device physical port: /sys/devices/pci0000:00/0000:00:14.0/usb2/2-4/2-4:1.0/video4linux/video0
+[INFO] [1745379261.102911562] [camera.camera]: Device FW version: 5.16.0.1
+[INFO] [1745379261.102927327] [camera.camera]: Device Product ID: 0x0B5C
+[INFO] [1745379261.102939984] [camera.camera]: Sync Mode: Off
+[INFO] [1745379261.230124762] [camera.camera]: Stopping Sensor: Depth Module
+[INFO] [1745379261.230218925] [camera.camera]: Stopping Sensor: RGB Camera
+[INFO] [1745379261.230242300] [camera.camera]: Stopping Sensor: Motion Module
+[INFO] [1745379261.245738136] [camera.camera]: Starting Sensor: Depth Module
+[INFO] [1745379261.251999296] [camera.camera]: Open profile: stream_type: Infra(1), Format: Y8, Width: 848, Height: 480, FPS: 30
+[INFO] [1745379261.252140713] [camera.camera]: Open profile: stream_type: Infra(2), Format: Y8, Width: 848, Height: 480, FPS: 30
+[INFO] [1745379261.252188123] [camera.camera]: Open profile: stream_type: Depth(0), Format: Z16, Width: 848, Height: 480, FPS: 30
+[INFO] [1745379261.369323135] [camera.camera]: Starting Sensor: RGB Camera
+[INFO] [1745379261.375030187] [camera.camera]: Open profile: stream_type: Color(0), Format: RGB8, Width: 1280, Height: 720, FPS: 30
+[INFO] [1745379261.383611587] [camera.camera]: Starting Sensor: Motion Module
+[INFO] [1745379261.388161428] [camera.camera]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 63
+[INFO] [1745379261.388253292] [camera.camera]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[INFO] [1745379261.392673973] [camera.camera]: RealSense Node Is Up!
+[INFO] [1745379262.327968116] [rclcpp]: signal_handler(signum=2)

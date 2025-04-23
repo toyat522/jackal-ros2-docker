@@ -1,0 +1,59 @@
+[0.010s] Invoking command in '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sparklab/sparklab/gnss-ros_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.295s] -- Create Release Build.
+[0.297s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.515s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.546s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.582s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.588s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.598s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.721s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[0.775s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.778s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.866s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.897s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.957s] -- Looking for pthread.h
+[1.025s] -- Looking for pthread.h - found
+[1.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.094s] -- Found Threads: TRUE  
+[1.181s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.208s] -- Found realsense2_camera_msgs: 4.55.1 (/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[1.230s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.256s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.370s] [31mCMake Error at CMakeLists.txt:117 (find_package):
+[1.370s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[1.370s]   project has asked CMake to find a package configuration file provided by
+[1.370s]   "diagnostic_updater", but CMake did not find one.
+[1.370s] 
+[1.370s]   Could not find a package configuration file provided by
+[1.370s]   "diagnostic_updater" with any of the following names:
+[1.370s] 
+[1.370s]     diagnostic_updaterConfig.cmake
+[1.370s]     diagnostic_updater-config.cmake
+[1.370s] 
+[1.370s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[1.370s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[1.370s]   files.  If "diagnostic_updater" provides a separate development package or
+[1.371s]   SDK, be sure it has been installed.
+[1.371s] 
+[1.371s] [0m
+[1.371s] -- Configuring incomplete, errors occurred!
+[1.371s] See also "/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera/CMakeFiles/CMakeOutput.log".
+[1.377s] Invoked command in '/home/sparklab/sparklab/gnss-ros_ws/build/realsense2_camera' returned '1': AMENT_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sparklab/sparklab/gnss-ros_ws/src/realsense-ros/realsense2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sparklab/sparklab/gnss-ros_ws/install/realsense2_camera
