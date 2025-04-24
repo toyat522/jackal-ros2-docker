@@ -36,10 +36,18 @@ def launch_setup(context, *args, **kwargs):
     ublox_ntrip_ld = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             [
-                get_package_share_directory("ntrip_client"),
-                "/ntrip_client_launch.py",
+                get_package_share_directory("spark_gnss_ros"),
+                "/launch/ublox_gps_ntrip.launch.py",
             ]
-        )
+        ),
+        launch_arguments={
+            "gnss_device": LaunchConfiguration("gnss_device"),
+            "host": LaunchConfiguration("host"),
+            "port": LaunchConfiguration("port"),
+            "mountpoint": LaunchConfiguration("mountpoint"),
+            "username": LaunchConfiguration("username"),
+            "password": LaunchConfiguration("password"),
+        }.items(),
     )
 
     vlp16_driver_ld = IncludeLaunchDescription(
@@ -57,22 +65,15 @@ def launch_setup(context, *args, **kwargs):
                 get_package_share_directory("velodyne_pointcloud"),
                 "/launch/velodyne_transform_node-VLP16-launch.py",
             ]
-        ),
-        launch_arguments={
-            "host": LaunchConfiguration("host"),
-            "port": LaunchConfiguration("port"),
-            "mountpoint": LaunchConfiguration("mountpoint"),
-            "username": LaunchConfiguration("username"),
-            "password": LaunchConfiguration("password"),
-        }.items(),
+        )
     )
 
     return [
         microstrain_ld,
         realsense_node,
         ublox_ntrip_ld,
-        #vlp16_driver_ld,
-        #vlp16_transform_ld,
+        vlp16_driver_ld,
+        vlp16_transform_ld,
     ]
 
 
@@ -80,7 +81,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             DeclareLaunchArgument(
-                "gnss_port", default_value="/dev/ttyACM0"
+                "gnss_device", default_value="/dev/ttyACM0"
             ),
             DeclareLaunchArgument(
                 "host", default_value="macorsrtk.massdot.state.ma.us"
