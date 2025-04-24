@@ -71,8 +71,8 @@ def launch_setup(context, *args, **kwargs):
         microstrain_ld,
         realsense_node,
         ublox_ntrip_ld,
-        vlp16_driver_ld,
-        vlp16_transform_ld,
+        #vlp16_driver_ld,
+        #vlp16_transform_ld,
     ]
 
 
@@ -80,7 +80,7 @@ def generate_launch_description():
     return LaunchDescription(
         [
             DeclareLaunchArgument(
-                "device", default_value="/dev/ttyACM0"
+                "gnss_port", default_value="/dev/ttyACM0"
             ),
             DeclareLaunchArgument(
                 "host", default_value="macorsrtk.massdot.state.ma.us"
