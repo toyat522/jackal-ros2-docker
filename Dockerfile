@@ -92,5 +92,6 @@ RUN apt update && apt install -y \
 RUN useradd -ms /bin/bash sparklab
 RUN echo 'sparklab:sparklab' | chpasswd
 RUN usermod -aG sudo sparklab
+RUN usermod -aG dialout sparklab
 USER sparklab
 WORKDIR /home/sparklab

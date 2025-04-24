@@ -3,6 +3,7 @@ version: '3.8'
 services:
     gnss-ros:
         privileged: true
+        network_mode: host
         build: .
         image: toyat522/gnss-ros
         command: tail -f
