@@ -57,7 +57,14 @@ def launch_setup(context, *args, **kwargs):
                 get_package_share_directory("velodyne_pointcloud"),
                 "/launch/velodyne_transform_node-VLP16-launch.py",
             ]
-        )
+        ),
+        launch_arguments={
+            "host": LaunchConfiguration("host"),
+            "port": LaunchConfiguration("port"),
+            "mountpoint": LaunchConfiguration("mountpoint"),
+            "username": LaunchConfiguration("username"),
+            "password": LaunchConfiguration("password"),
+        }.items(),
     )
 
     return [
@@ -72,6 +79,20 @@ def launch_setup(context, *args, **kwargs):
 def generate_launch_description():
     return LaunchDescription(
         [
+            DeclareLaunchArgument(
+                "device", default_value="/dev/ttyACM0"
+            ),
+            DeclareLaunchArgument(
+                "host", default_value="macorsrtk.massdot.state.ma.us"
+            ),
+            DeclareLaunchArgument(
+                "port", default_value="10000"
+            ),
+            DeclareLaunchArgument(
+                "mountpoint", default_value="RTCM3_NEAR"
+            ),
+            DeclareLaunchArgument("username"),
+            DeclareLaunchArgument("password"),
             OpaqueFunction(function=launch_setup),
         ]
     )
